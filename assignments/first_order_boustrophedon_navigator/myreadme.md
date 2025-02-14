@@ -1,3 +1,6 @@
+
+![Screenshot from 2025-02-13 12-31-10](https://github.com/user-attachments/assets/f8ee49ee-3239-4694-be25-4e700c7f723d)
+
 # Robotics PID Controller Tuning
 
 This repository focuses on tuning PID (Proportional-Integral-Derivative) controllers for robotic navigation. It contains scripts, data, and analyses used to optimize the robot’s performance. Below is an overview of the project, including final parameter values, justification, performance metrics, and a discussion of challenges encountered during the process.
