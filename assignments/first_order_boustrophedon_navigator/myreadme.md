@@ -7,7 +7,6 @@ This repository focuses on tuning PID (Proportional-Integral-Derivative) control
 - **Plots**: Visualizations of performance metrics.
 - **Documentation**: This README and detailed comments in the code.
 
----
 
 ## Final PID Parameters
 
