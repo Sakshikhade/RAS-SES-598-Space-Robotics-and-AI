@@ -1,4 +1,5 @@
 # Submission README: Cart-Pole Optimal Control Assignment
+<img width="546" alt="Screenshot 2025-02-20 at 9 35 01 PM" src="https://github.com/user-attachments/assets/9be267ca-ef3f-4570-9679-6671787e7a00" />
 
 ## Overview
 This submission contains all the required deliverables for the Cart-Pole Optimal Control assignment. The focus is on analyzing and tuning an LQR controller for stabilizing the cart-pole system under earthquake disturbances. Additionally, the submission includes performance analysis and video demonstrations.
@@ -10,19 +11,18 @@ This submission contains all the required deliverables for the Cart-Pole Optimal
      - Analysis of controller parameters (Q and R matrices)
      - Performance metrics and observations
      - Trade-offs and findings
-   - File: `technical_report.pdf`
 
 2. **Simulation Videos**
    - Demonstrations of system performance under different LQR configurations:
      - Configuration 1: Higher instability observed
        - **Q Matrix**: `diag([1.5, 2.5, 25.0, 10.5])`
        - **R Value**: `0.10`
+       - https://drive.google.com/file/d/1e81UseAhhR4xM_ugZtOtnp8EHHKmxBA6/view
+     
      - Configuration 2: Improved stability with better parameter tuning
        - **Q Matrix**: `diag([1.2, 2.2, 22.0, 8.0])`
        - **R Value**: `0.08`
-   - File Names:
-     - `configuration1_performance.mp4`
-     - `configuration2_performance.mp4`
+       - https://drive.google.com/file/d/1XNL6jjpQf5acSIgEzYPzSNhUhgD-Emsf/view
 
 3. **Code Files**
    - ROS2 package with LQR controller implementation and earthquake disturbance generator:
