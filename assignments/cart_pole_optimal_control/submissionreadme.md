@@ -1,7 +1,7 @@
 # Submission README: Cart-Pole Optimal Control Assignment
 
 ## Overview
-This submission contains all the required deliverables for the Cart-Pole Optimal Control assignment. The focus is on analyzing and tuning an LQR controller for stabilizing the cart-pole system under earthquake disturbances. Additionally, the submission includes performance analysis, supporting visualizations, and video demonstrations.
+This submission contains all the required deliverables for the Cart-Pole Optimal Control assignment. The focus is on analyzing and tuning an LQR controller for stabilizing the cart-pole system under earthquake disturbances. Additionally, the submission includes performance analysis and video demonstrations.
 
 ## Submission Contents
 1. **Technical Report**
@@ -30,22 +30,6 @@ This submission contains all the required deliverables for the Cart-Pole Optimal
      - Configurable parameters
    - Directory: `cart_pole_optimal_control`
 
-4. **Performance Plots and Visualizations**
-   - Data visualizations showing:
-     - Cart position and velocity
-     - Pole angle deviation
-     - Control effort distribution
-     - System recovery from disturbances
-   - Directory: `visualizations/`
-     - Files: `cart_position_plot.png`, `pole_angle_plot.png`, `control_effort_plot.png`
-
-5. **Extra Credit (Optional)**
-   - Implementation of a DQN controller:
-     - Training progress visualizations
-     - Comparison with LQR performance
-   - Directory: `extra_credit/`
-     - Files: `dqn_training_plot.png`, `dqn_vs_lqr_comparison.pdf`
-
 ## How to Access the Submission
 ### ROS2 Simulation
 1. **Setup Instructions**:
@@ -69,14 +53,11 @@ This submission contains all the required deliverables for the Cart-Pole Optimal
 ### Videos
 - Open `configuration1_performance.mp4` and `configuration2_performance.mp4` in any video player to review system behavior.
 
-### Reports and Visualizations
-- All reports and plots can be viewed in their respective directories.
+### Reports
+- The technical report can be found in the root directory as `technical_report.pdf`.
 
 ## Contact Information
 For any queries or clarifications regarding this submission, please contact:
-- **Name**: [Your Name]
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Profile]
-
-## License
-This submission is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+- **Name**: Sakshi Khade
+- **Email**: skhade5@asu.edu
+- **GitHub**: sakshikhade
